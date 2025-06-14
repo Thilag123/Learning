@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+  margin-top: 6em;
+  margin-right: 15em;
+  margin-left: 15em;
+  position: absolute;
+  top: 0;
+  width: 70%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.landing {
+  margin-top: 6em;
+  margin-right: 15em;
+  margin-left: 15em;
+  margin-bottom: 6em;
+  background-image: url("images/landingpage.avif");
+  height: 80vh;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 60px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.overlay h1 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.overlay p {
+  font-size: 1em;
+  margin-bottom: 25px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #007bff;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.feature-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #222222;
+  text-align: center;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-box {
+  background-color: #eeeeef;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+/* Contact Section Styling */
+.contact-us {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 2em 15em;
+}
+
+.contact-us h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.input-section {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-section input,
+.input-section textarea {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;   
+}
+
+/* Button Styling */
+#msg-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#msg-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styling */
+.footer-section {
+  background-color: #2e2e2e;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}

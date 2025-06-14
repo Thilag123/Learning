@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="task1.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Online Store</h1>
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#comparison">Comparison</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="products">
+        <p>
+          Welcome to My Online Store, your one-stop shop for quality products at
+          great prices. Browse our wide selection of items, from the latest
+          gadgets to everyday essentials.<br />
+          Enjoy fast shipping, secure checkout, and excellent customer service
+          every step of the way.
+        </p>
+      </section>
+
+      <section id="comparison">
+        <h2>Featured Products</h2>
+
+        <div class="product-box">
+          <img
+            src="images/handbag.jpg"
+            width="400"
+            height="400"
+            alt="Image of a Hand bag"
+          /><br />
+          <br />
+          <p class="boldtext"><b>Handbag</b></p>
+          <p>
+            Elevate your style with this chic and versatile handbag, crafted for
+            modern elegance.<br />
+            Perfect for both casual outings and formal occasions, it combines
+            fashion with function.
+          </p>
+          <br />
+          <p class="italictext"><i>Cost: Rs.1500</i></p>
+          <br /><br />
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/wristwatch.jpg"
+            width="400"
+            height="400"
+            alt="Image of a wrist watch"
+          /><br />
+          <br />
+          <p class="boldtext"><b>Wristwatch</b></p>
+          <p>
+            Timeless design meets modern precision in this sleek wristwatch,
+            perfect for any occasion.<br />
+            Crafted for durability and style, it's the ideal blend of function
+            and fashion.
+          </p>
+          <br />
+          <p class="italictext"><i>Cost: Rs. 2600</i></p>
+          <br /><br />
+        </div>
+
+        <div class="product-box">
+          <img
+            src="images/flowerVase.jpg"
+            width="400"
+            height="400"
+            alt="Image of a flower vase"
+          /><br />
+          <br />
+          <p class="boldtext"><b>Flower vase</b></p>
+          <p>
+            Add a touch of elegance to any space with this beautifully crafted
+            flower vase.<br />
+            Perfect for fresh blooms or as a standalone decor piece, it brings
+            charm and style to your home.
+          </p>
+          <br />
+          <p class="italictext"><i>Cost: Rs.1200</i></p>
+          <br />
+        </div>
+
+        <h2>Product Comparison</h2>
+        <table>
+          <tr>
+            <th width="100">Product</th>
+            <th width="100">Price</th>
+            <th width="100">In Stock</th>
+            <th width="100">Rating</th>
+          </tr>
+          <tr>
+            <td>Handbag</td>
+            <td>1500</td>
+            <td>Yes</td>
+            <td>4.8</td>
+          </tr>
+          <tr>
+            <td>Wristwatch</td>
+            <td>2600</td>
+            <td>Yes</td>
+            <td>4.7</td>
+          </tr>
+          <tr>
+            <td>Flower vase</td>
+            <td>1200</td>
+            <td>Yes</td>
+            <td>4.9</td>
+          </tr>
+        </table>
+        <br />
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form
+          action="index.php"
+          method="GET"
+          enctype="multipart/form-data"
+          class="formdata"
+        >
+          <label for="name">Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            minlength="5"
+            maxlength="20"
+            required
+          /><br />
+          <br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            placeholder="eg. thilag@gmail.com"
+            required
+          /><br />
+          <br />
+          <label for="product">Product Interested In:</label><br />
+          <select name="product" id="product">
+            <option value="Handbag">Handbag</option>
+            <option value="Wristwatch">Wristwatch</option>
+            <option value="flower vase">Flower vase</option></select
+          ><br />
+          <br />
+          <label for="comment">Message box:</label><br />
+          <textarea name="comment" id="comment" rows="5" cols="30"></textarea
+          ><br />
+          <br />
+
+          <input type="reset" id="reset" />
+          <input type="submit" id="submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h3>Contact Us</h3>
+      <p>Mobile: 8220238443</p>
+      <a href="mailto:contact.thilag@gmail.com">Email: Contact.thilag@gmail.com</a>
+      <p class="rightsinfo">
+        &copy; 2025 My Online Store. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

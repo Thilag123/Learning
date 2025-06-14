@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #b2e4bc;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #52659f;
+  height: 6em;
+}
+
+h1 {
+  margin-bottom: 6px;
+  color: #fdfbfb;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  
+}
+
+nav a:active{
+  background-color: #932293;
+}
+nav a:hover {
+  color: #e99e08;
+}
+
+#products {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #932293;
+  padding: 10px;
+}
+.boldtext {
+  color: #932293;
+  margin-bottom: 10px;
+}
+.product-box {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  max-width: 100%;
+  background-color: #c6c1c1;
+}
+
+.formdata {
+  margin-bottom: 30px;
+}
+.italictext {
+  color: #c55206;
+}
+#comparison {
+  padding: 10px;
+}
+table{
+  width: 100%;
+}
+
+table,
+th,
+td {  
+  border: 1px solid;
+}
+
+th{
+  background-color: #52659f;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #fdfbfb;
+}
+
+th,
+td {
+  text-align: center;
+}
+#name {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#email {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#product-box {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#comment {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#contact {
+  padding: 10px;  
+}
+
+#reset,
+#submit {
+  padding: 10px;
+  border-radius: 5px;
+  width: 70px;
+  background-color: #e99e08;
+}
+
+#reset:hover,
+#submit:hover {
+  border: none;
+  background-color: #52659f;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #52659f;
+  height: 6em;
+}
+h3 {
+  color: #fdfbfb;
+}
+
+footer a:hover {
+  color: #fdfbfb;
+}
+
+.rightsinfo {
+  font-size: 12px;
+}
+
+@media (max-width:480px) {
+  h1{
+    font-size: 1.5rem;
+  }
+  nav a{
+    display: block;
+    margin: 5px auto;
+  }
+  .product-box{
+    display: block;
+    width: auto;
+    margin: 10px auto;
+  }
+}

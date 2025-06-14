@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Project3</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header-section">
+      <h1>EcoMart</h1>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">     
+      <h2>Go Green, Shop Smart</h2>
+      <button type="button">Register Now</button>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="features-section">
+      <div class="card">
+        <h3>Organic</h3>
+        <p>Fresh organic products directly from farms.</p>
+      </div>
+      <div class="card">
+        <h3>Eco Packaging</h3>
+        <p>Sustainable, biodegradable packaging for all items.</p>
+      </div>
+      <div class="card">
+        <h3>Fast Delivery</h3>
+        <p>Quick, reliable delivery to your doorstep.</p>
+      </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="registration-section">
+      <form class="registration-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your Name" required />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your Email id"
+          required
+        />
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="Enter your Phone number" required/>
+
+        <label for="fav-factory">Favourite Factory</label>
+        <select name="category" id="category">
+          <option value="Fruits">Fruits</option>
+          <option value="Vegetables">Vegetables</option>
+          <option value="Cosmetics">Cosmetics</option>
+        </select>
+
+        <label for="subscription"
+          ><input type="checkbox" name="newsletter" />Subscribe to
+          newsletter</label
+        >
+        <input type="submit" value="Submit" />
+      </form>
+
+      <!-- User Details Display  -->
+       <div class="user-details" id="userdetails" style="display: none;"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <p>
+        &copy; Contact Us at 8220238443 and mail to
+        <a href="mailto:contact.thilag@gmail.com">contact.thilag@gmail.com</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
